@@ -52,6 +52,7 @@ function Login() {
                 <p className="subheading">
                     Do not have an account? <Link to="/signup">Sign Up</Link>
                 </p>
+                <div className="login-footer"><a href="https://github.com/Sujitpandey1409/">A social media app by Sujit Pandey</a></div>
             </div>
         </div>
     );
