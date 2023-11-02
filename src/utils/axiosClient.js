@@ -15,7 +15,7 @@ console.log('env is :', process.env.NODE_ENV);
 if(process.env.NODE_ENV === 'production') {
     baseURL = process.env.REACT_APP_SERVER_BASE_URL
 }
-console.log(baseURL);
+// console.log(baseURL);
 export const axiosClient = axios.create({
     baseURL,
     withCredentials: true,
